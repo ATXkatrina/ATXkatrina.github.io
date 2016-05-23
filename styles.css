@@ -1,3 +1,72 @@
 body{
-  background: pink;
+  background: #e6fff7;
+  font-family: courier;
+  padding: 20px;
+  margin: 40px;
+}
+
+img{
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  width: 80%;
+}
+
+.section{
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  background: white;
+  padding: 10px;
+  border-style: ridge;
+  border-color: pink;
+}
+
+table{
+  margin: 0 auto;
+  background: white;
+  padding: 10px;
+  border-style: ridge;
+  border-color: pink;
+}
+
+p{
+  position: relative;
+  left: 20px;
+}
+
+a{
+  color: #b84dff;
+}
+
+a:visited{
+  color:#ff751a;
+}
+
+button {
+  background-color: white
+  border: solid;
+  color: black;
+  font-weight: 900;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+#polar-bear{
+  background-image: url("images/chancellor.jpg");
+  color: white;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+#polar-bear div{
+  position: fixed;
+  bottom: 0;
+  padding: 20px;
 }
